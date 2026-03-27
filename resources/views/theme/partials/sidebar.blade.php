@@ -53,7 +53,7 @@
             <div class="popular-post-list">
                 <div class="single-post-list">
                     <div class="thumb">
-                        <img class="card-img rounded-0" src="img/blog/thumb/thumb1.png" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/thumb/thumb1.png') }}" alt="">
                         <ul class="thumb-info">
                             <li><a href="#">Adam Colinge</a></li>
                             <li><a href="#">Dec 15</a></li>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="single-post-list">
                     <div class="thumb">
-                        <img class="card-img rounded-0" src="img/blog/thumb/thumb2.png" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/thumb/thumb2.png') }}" alt="">
                         <ul class="thumb-info">
                             <li><a href="#">Adam Colinge</a></li>
                             <li><a href="#">Dec 15</a></li>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="single-post-list">
                     <div class="thumb">
-                        <img class="card-img rounded-0" src="img/blog/thumb/thumb3.png" alt="">
+                                <img class="card-img rounded-0" src="{{ asset('assets/img/blog/thumb/thumb3.png') }}" alt="">
                         <ul class="thumb-info">
                             <li><a href="#">Adam Colinge</a></li>
                             <li><a href="#">Dec 15</a></li>
