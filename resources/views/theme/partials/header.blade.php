@@ -19,22 +19,22 @@
                           <li class="nav-item @yield('home-active')"><a class="nav-link"
                                   href="{{ route('theme.index') }}">Home</a>
                           </li>
-                          <li class="nav-item @yield('categories-active')submenu dropdown">
+                          <li class="nav-item @yield('categories-active') submenu dropdown">
                               <a href="{{ route('theme.category') }}" class="nav-link dropdown-toggle"
                                   data-toggle="dropdown" role="button" aria-haspopup="true"
                                   aria-expanded="false">Categories</a>
                               <ul class="dropdown-menu">
                                   <li class="nav-item"><a class="nav-link"
-                                          href=" {{ route('theme.category') }}">Food</a>
+                                          href="{{ route('theme.category') }}">Food</a>
                                   </li>
                                   <li class="nav-item"><a
-                                          class="nav-link"href="{{ route('theme.category') }}">Bussiness</a></li>
+                                          class="nav-link" href="{{ route('theme.category') }}">Bussiness</a></li>
                                   <li class="nav-item"><a class="nav-link"
                                           href="{{ route('theme.category') }}">Travel</a>
                                   </li>
                               </ul>
                           </li>
-                          <li class="nav-item @yield('contact-active'))"><a class="nav-link"
+                          <li class="nav-item @yield('contact-active')"><a class="nav-link"
                                   href="{{ route('theme.contact') }}">Contact</a></li>
                       </ul>
 
