@@ -9,6 +9,7 @@ class ThemeController extends Controller
         return view('theme.index');
     }
 
+    
     function category()
     {
         return view('theme.category');
@@ -26,11 +27,11 @@ class ThemeController extends Controller
 
     function login()
     {
-        return view('theme.login');
+        return view('auth.login');
     }
 
     function register()
     {
-        return view('theme.register');
+        return view('auth.register');
     }   
 }

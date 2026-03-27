@@ -18,6 +18,7 @@
               <input class="form-control border" name="password" id="name" type="password" placeholder="Enter your password">
             </div>
             <div class="form-group text-center text-md-right mt-3">
+              <a href="{{ route('theme.register') }}" class="btn btn-sm btn-warning">Don't have an account?</a>
               <button type="submit" class="button button--active button-contactForm">Login</button>
             </div>
           </form>
