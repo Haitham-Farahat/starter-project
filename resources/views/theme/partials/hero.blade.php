@@ -3,11 +3,11 @@
     <div class="container">
         <div class="hero-banner hero-banner--sm">
             <div class="hero-banner__content">
-                <h1>Category Page</h1>
+                <h1>@yield('title', 'Home')</h1>
                 <nav aria-label="breadcrumb" class="banner-breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Category Page</li>
+                        <li class="breadcrumb-item"><a href="{{ route('theme.index') }}">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">@yield('title', 'Home')</li>
                     </ol>
                 </nav>
             </div>

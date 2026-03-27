@@ -18,4 +18,19 @@ class ThemeController extends Controller
     {
         return view('theme.contact');
     }
+
+    function singleBlog()
+    {
+        return view('theme.single-blog');
+    }
+
+    function login()
+    {
+        return view('theme.login');
+    }
+
+    function register()
+    {
+        return view('theme.register');
+    }   
 }
